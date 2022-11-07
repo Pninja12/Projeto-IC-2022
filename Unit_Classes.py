@@ -3,7 +3,7 @@ import random
 
 #DEFINING THE WARRIOR CLASS WITH THE DEFAULT VALUES AND ITS SPELLS
 class Warrior():
-    def __init__(self, HP, MP, AP, WP, Init):
+    def __init__(self):
         self.HP = 32
         self.MP = 5
         self.AP = 2
@@ -17,7 +17,7 @@ class Warrior():
 
 #DEFINING THE PRIEST CLASS WITH THE DEFAULT VALUES AND ITS SPELLS
 class Priest():
-    def __init__(self, HP, MP, AP, WP, Init):
+    def __init__(self):
         self.HP = 20
         self.MP = 25
         self.AP = 0
@@ -36,7 +36,7 @@ class Priest():
 
 #DEFININING THE ENEMY'S CHARACTER CLASS WITH THE DEFAULT VALUES
 class Orc_Warrior():
-    def __init__(self, HP, MP, AP, WP, Init):
+    def __init__(self):
         self.HP = 15
         self.MP = 0
         self.AP = 2
