@@ -15,7 +15,7 @@ def Turn_Order(List_Warrior, List_Priest, List_OrcWarrior):
     for i in Unit_List:
         Initiative_Order[i.Init + random.randint(1,20)] = i
     
-    #CREATE EMPTY ARRAY TO SAVE THE OBJECTS IN THE CORRECT ORDER 
+    #CREATE EMPTY LIST TO SAVE THE OBJECTS IN THE CORRECT ORDER 
     Ordered_Units = []
     
     #ITERATE THE DICTIONARY'S KEYS (TURN ORDER) ORDERED IN DECRESCENT ORDER
