@@ -5,7 +5,7 @@
 
 **Repositório Git:** [GitHub](https://github.com/Ricardo-Louro/Projeto-IC-2022)
 
-##### **Arquitétura da Solução:**
+##### **Arquitetura da Solução:**
 **Main File:**
 O programa é iniciado no *Main_File.py* e começa por importar as várias funções criadas em outros documentos utilizados durante todo o processo. De seguida, define as variáveis necessárias antes do jogo começar e apresenta algum texto de boas vindas ao jogador.
 
@@ -19,7 +19,7 @@ Para os Warriors, o jogador tem de introduzir se pretende utilizar um Ataque ou 
 
 Para os Priests, o jogador tem de escolher entre Ataque e Magia de igual modo aos Warriors. No entanto, caso este selecione o feitiço *Mend*, como este é um feitiço de cura, a escolha de alvo é feita através da lista de *Allies*.
 
-Para os Orc Warriors, estes apenas atacam aleatóriamente um elemento da lista *Allies*.
+Para os Orc Warriors, estes apenas atacam aleatoriamente um elemento da lista *Allies*.
 
 Caso alguma unidade morra após os ataques, esta é removida das listas a que pertence para que não possa agir, ser alvo de qualquer ataque/feitiço ou participar nas contagens do turno.
 
